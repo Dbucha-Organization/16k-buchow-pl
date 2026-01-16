@@ -1519,7 +1519,7 @@ footer svg {
     .benefits-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .benefit-card {
         padding: 20px;
     }
@@ -1534,5 +1534,12 @@ footer svg {
 
     .desc-icon {
         font-size: 30px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .slider-dots {
+        display: none;
     }
 }
