@@ -175,8 +175,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo a {
@@ -187,7 +187,7 @@ ul {
 }
 
 .logo img {
-    width: 50px;
+    width: 70px;
 }
 
 .search-bar {
@@ -382,6 +382,7 @@ ul {
     max-width: 600px;
     color: white;
     z-index: 2;
+    margin-left: 15px;
 }
 
 .slide-btns {
