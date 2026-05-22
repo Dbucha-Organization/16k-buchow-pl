@@ -15,6 +15,153 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- TODO: Add Product Offer price/availability only when real product data is available on this page. -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "OnlineStore",
+                    "@id": "https://xn--16k-buchw-d7a.pl/#organization",
+                    "name": "16K-buchów.pl",
+                    "alternateName": "Dbucha.com",
+                    "url": "https://xn--16k-buchw-d7a.pl/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "@id": "https://xn--16k-buchw-d7a.pl/#logo",
+                        "url": "https://xn--16k-buchw-d7a.pl/images/Jednoraz%C3%B3wki-e-papieros-16K-polska.png"
+                    },
+                    "contactPoint": [
+                        {
+                            "@type": "ContactPoint",
+                            "contactType": "customer service",
+                            "email": "info@dbucha.com",
+                            "telephone": "+48573581194",
+                            "areaServed": "PL",
+                            "availableLanguage": [
+                                "pl"
+                            ]
+                        }
+                    ],
+                    "sameAs": [
+                        "https://www.instagram.com/dbucha.com_sklep/",
+                        "https://www.facebook.com/people/Dbuchacom/61578129732195/",
+                        "https://www.tiktok.com/@dbucha.com"
+                    ],
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Poland"
+                    },
+                    "availableLanguage": [
+                        "pl-PL"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://xn--16k-buchw-d7a.pl/#website",
+                    "name": "16K-buchów.pl",
+                    "url": "https://xn--16k-buchw-d7a.pl/",
+                    "publisher": {
+                        "@id": "https://xn--16k-buchw-d7a.pl/#organization"
+                    },
+                    "inLanguage": "pl-PL"
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://xn--16k-buchw-d7a.pl/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Strona Główna",
+                            "item": "https://xn--16k-buchw-d7a.pl/"
+                        }
+                    ]
+                },
+                {
+                    "@type": "CollectionPage",
+                    "@id": "https://xn--16k-buchw-d7a.pl/#collection-page",
+                    "name": "Jednorazówki 16K - e papierosy jednorazowe",
+                    "description": "Sklep z jednorazowymi e-papierosami do 16 000 buchów. Szeroki wybór e-papierosów, różne smaki i szybka realizacja zamówień.",
+                    "url": "https://xn--16k-buchw-d7a.pl/",
+                    "isPartOf": {
+                        "@id": "https://xn--16k-buchw-d7a.pl/#website"
+                    },
+                    "about": {
+                        "@type": "Thing",
+                        "name": "e papierosy jednorazowe 16K"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://xn--16k-buchw-d7a.pl/#breadcrumb"
+                    },
+                    "mainEntity": {
+                        "@id": "https://xn--16k-buchw-d7a.pl/#product-list"
+                    },
+                    "inLanguage": "pl-PL"
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://xn--16k-buchw-d7a.pl/#product-list",
+                    "name": "Jednorazówki 16K dostępne w sklepie",
+                    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+                    "numberOfItems": 3,
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow#product",
+                                "name": "E papieros jednorazowy MerryMi Blade 16K",
+                                "description": "Jednorazówka MerryMi Blade 16K to e papieros jednorazowy z kategorii 16 000 buchów.",
+                                "image": "https://xn--16k-buchw-d7a.pl/images/products/MerryMi_M_Mecha_16K_E_papieros_jednorazowki_Mr_Blue_16000_Buchow.png",
+                                "url": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe 16K"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.dbucha.com/products/adalya-adl-16000-16k-buchow#product",
+                                "name": "E papieros jednorazowy Adalya 16K",
+                                "description": "Jednorazówka Adalya 16K to e papieros jednorazowy z kategorii 16 000 buchów.",
+                                "image": "https://xn--16k-buchw-d7a.pl/images/products/Adalya-ADL16000-E-papieros-jednoraz%C3%B3wki-16K-16000-buch%C3%B3w.png",
+                                "url": "https://www.dbucha.com/products/adalya-adl-16000-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "E papierosy jednorazowe 16K"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.dbucha.com/products/jnr-falcon-16k-buchow#product",
+                                "name": "E papieros jednorazowy Jnr Falcon 16K",
+                                "description": "Jednorazówka Jnr Falcon 16K to e papieros jednorazowy z kategorii 16 000 buchów.",
+                                "image": "https://xn--16k-buchw-d7a.pl/images/products/Jnr-E-papieros-Falcon-jednoraz%C3%B3wki-16K-16000-buch%C3%B3w.png",
+                                "url": "https://www.dbucha.com/products/jnr-falcon-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe 16K"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
